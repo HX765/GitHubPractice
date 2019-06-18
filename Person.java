@@ -11,6 +11,8 @@ public class Person {
 	public static void main(String[] args) {
 		Person p = new Person("Bob", 50);
 		System.out.println(p.name);
+		p.name = "Bobert";
+		
 	}
 
 }
